@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,8 @@
     "sequelize": "^5.21.1",
     "sequelize-cli": "^5.5.1",
     "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
   }
 }
